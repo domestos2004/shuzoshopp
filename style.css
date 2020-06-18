@@ -1,0 +1,269 @@
+
+body {
+
+  margin: 0; /* eliminates margin spacing on body so that the footer color is able to fill the window */
+
+  /* Sets the background for the entire page to a light yellow color */
+
+  background-color: #252327;
+
+  font-family: 'Open Sans', sans-serif; /* Font from Google Fonts */
+
+}
+.primary-header {
+  text-align: center;
+}
+
+
+.main-heading {
+  font-size: 70px;
+  color: white;
+}
+
+.main-head {
+  height: 10px;
+  font-size: 30px;
+  color: #DE1F1F ;
+}
+
+.town-preview {
+  width: 650px;
+}
+
+.store-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; /* Makes the content witin this element flexible */
+  display: -webkit-flex; /* vendor prefix */
+  margin: 50px auto; /* Adds spacing at top of all sections and then centers them */
+  width: 450px; /* approximate width of each section */
+}
+
+.building {
+  width: 100px;
+  height:100px;
+}
+
+.store-details { /* This is the div that contains the text */
+  margin-left: 30px;
+}
+
+.category-heading {
+  color: white;
+  font-size: 30px;
+  color: #DE1F1F;
+}
+
+.store-list {
+  padding-left: 15px;
+  color: white; /* this will make sure the bullet points turn dark yellow! */
+}
+
+.store-name {
+  margin-bottom: 10px; /* adds a bit of space at the bottom of each list item */
+}
+
+.store-link {
+  color: white; /*6923AE*/
+  font-size: 20px;
+}
+
+.primary-footer {
+  padding: 2px;
+  background-color: #DE1F1F;
+  text-align: center;
+ }
+
+ .soc-set {
+   list-style: none;
+   display: inline-block;
+   margin-right: 10px;
+ }
+
+  .build {
+    width:  40px;
+    height: 40px;
+}
+
+
+.created-by {
+  color: #FFFFFF;
+  font-size: 20px;
+
+}
+
+
+
+ @media only (max-width: 1028px) {
+
+.primary-header {
+  text-align: center;
+}
+
+
+.main-heading {
+  font-size: 70px;
+  color: white;
+}
+
+.main-head {
+  height: 10px;
+  font-size: 30px;
+  color: #DE1F1F ;
+}
+
+.town-preview {
+  width: 650px;
+}
+
+.store-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; /* Makes the content witin this element flexible */
+  display: -webkit-flex; /* vendor prefix */
+  margin: 50px auto; /* Adds spacing at top of all sections and then centers them */
+  width: 450px; /* approximate width of each section */
+}
+
+.building {
+  width: 100px;
+  height:100px;
+}
+
+.store-details { /* This is the div that contains the text */
+  margin-left: 30px;
+}
+
+.category-heading {
+  color: white;
+  font-size: 30px;
+  color: #DE1F1F;
+}
+
+.store-list {
+  padding-left: 15px;
+  color: white; /* this will make sure the bullet points turn dark yellow! */
+}
+
+.store-name {
+  margin-bottom: 10px; /* adds a bit of space at the bottom of each list item */
+}
+
+.store-link {
+  color: white; /*6923AE*/
+  font-size: 20px;
+}
+
+.primary-footer {
+  padding: 2px;
+  background-color: #DE1F1F;
+  text-align: center;
+ }
+
+ .soc-set {
+   list-style: none;
+   display: inline-block;
+   margin-right: 10px;
+ }
+
+  .build {
+    width:  40px;
+    height: 40px;
+}
+
+
+.created-by {
+  color: #FFFFFF;
+  font-size: 20px;
+
+}
+}
+
+
+
+
+
+@media only (max-width: 700px) {
+
+.primary-header {
+ text-align: center;
+}
+
+
+.main-heading {
+ font-size: 50px;
+ color: white;
+}
+
+.main-head {
+ height: 5px;
+ font-size: 15px;
+ color: #DE1F1F ;
+}
+
+.town-preview {
+ width: 500px;
+}
+
+.store-section {
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex; /* Makes the content witin this element flexible */
+ display: -webkit-flex; /* vendor prefix */
+ margin: 30px auto; /* Adds spacing at top of all sections and then centers them */
+ width: 400px; /* approximate width of each section */
+}
+
+.building {
+ width: 50px;
+ height:50px;
+}
+
+.store-details { /* This is the div that contains the text */
+ margin-left: 15px;
+}
+
+.category-heading {
+ color: white;
+ font-size: 15px;
+ color: #DE1F1F;
+}
+
+.store-list {
+ padding-left: 7px;
+ color: white; /* this will make sure the bullet points turn dark yellow! */
+}
+
+.store-name {
+ margin-bottom: 5px; /* adds a bit of space at the bottom of each list item */
+}
+
+.store-link {
+ color: white; /*6923AE*/
+ font-size: 10px;
+}
+
+.primary-footer {
+ padding: 1px;
+ background-color: #DE1F1F;
+ text-align: center;
+}
+
+.soc-set {
+  list-style: none;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+ .build {
+   width:  20px;
+   height: 20px;
+}
+
+
+.created-by {
+ color: #FFFFFF;
+ font-size: 10px;
+
+}
+}
